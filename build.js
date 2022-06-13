@@ -4,7 +4,7 @@ const inlineImage = require("esbuild-plugin-inline-image");
 
 esbuild.build({
   entryPoints: ["./src/index.js"],
-  outfile: "./public/js/app.js",
+  outfile: "./public/assets/app.js",
   minify: true,
   bundle: true,
   loader: {
